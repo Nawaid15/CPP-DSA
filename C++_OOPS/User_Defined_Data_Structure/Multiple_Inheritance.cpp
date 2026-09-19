@@ -29,4 +29,5 @@ int main() {
     Phodu p1;
     p1.expirience = 11;
     p1.change();
+    cout << p1.avg << " ";
 }
