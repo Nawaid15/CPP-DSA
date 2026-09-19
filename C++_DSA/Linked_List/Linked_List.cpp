@@ -232,6 +232,35 @@ public:
 		}
 	}
 
+    void selectionSort() {
+        for(int i = 0; i < length; i++) {
+            int minIndex = i;
+            for(int j = i; j < length; j++) {
+                if(getValue(minIndex) > getValue(j)) {
+                    minIndex = j;
+                }
+            }
+            int a = getValue(i);
+            int b = getValue(minIndex);
+            getNode(i)->value = b;
+            getNode(minIndex)->value = a;
+        }
+    }
+
+    void insertionSort() {
+        for(int j = 0; j < length-1; j++) {
+            int k = j+1;
+            while(getValue(k-1) > getValue(k)) {
+                int a = getValue(k-1);
+                int b = getValue(k);
+                getNode(k)->value = a;
+                getNode(k-1)->value = b;
+                if(k-1 == 0) break;
+                k--;
+            }
+        }
+    }
+
     void printList() {
         Node* temp;
         temp = head;
@@ -305,5 +334,12 @@ int main() {
     List->printList();
     List->print_reverse();
     List->bubbleSort();
+    cout << "Result of Bubble Sort : "; 
+    List->printList();
+    List->selectionSort();
+    cout << "Result of Selection Sort : ";
+    List->printList();
+    List->insertionSort();
+    cout << "Result of Insertion Sort : ";
     List->printList();
 }
