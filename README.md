@@ -1,38 +1,60 @@
 # C++ DSA
 
-This repository contains my implementations and practice while learning Data Structures and Algorithms in C++.
+A collection of my C++ code, practice, and experiments while learning C++ and Data Structures & Algorithms.
 
-I am building this repository step by step as I learn and practice different DSA concepts.
+This repository is basically my C++ learning journey — from understanding the fundamentals and OOP concepts to implementing data structures and algorithms, solving problems, debugging code, and trying different approaches along the way.
 
-## 📚 Topics
+## 🧠 What I'm Learning
 
-- Arrays
+The repository currently includes topics such as:
+
+- C++ Basics
+- Functions
+- Pointers
+- Recursion
+- Object-Oriented Programming
+- Constructors
 - Linked Lists
 - Doubly Linked Lists
-- Recursion
 - Stacks
 - Queues
 - Trees
 - Binary Search Trees
-- Hash Tables
-- Heaps
-- Graphs
+- And more as I continue learning
 
-## 🧠 What I'm Learning
+## 🔍 More Than Just Code
 
-I am focusing on understanding how these data structures work internally rather than only using built-in containers.
+I'm not trying to just memorize syntax or copy implementations.
 
-For each topic, I try to understand:
+I try to understand:
 
-- How the data structure works
-- How its operations are implemented
+- How things work internally
+- Why a particular approach works
+- How different implementations compare
 - Time and space complexity
-- Different approaches to solving problems
+- Common mistakes and how to debug them
+- How concepts connect with each other
+
+## 🛠️ How I Practice
+
+Most of the code here is written while learning and experimenting with the concepts.
+
+You'll find implementations, different approaches, experiments, debugging, and the occasional piece of code that looked much better in my head before I actually ran it. :)
+
+That's part of the learning process.
 
 ## 💻 Language
 
-- C++
+C++
 
 ## 🚧 Progress
 
-This repository is a work in progress and will be updated as I continue learning DSA.
+This repository is a work in progress.
+
+I'll keep adding new concepts, implementations, and experiments as I continue learning C++ and DSA.
+
+> Learn it → Build it → Break it → Debug it → Understand it.
+
+---
+
+Made while learning C++ and DSA, one concept at a time.
