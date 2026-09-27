@@ -1,4 +1,4 @@
-# C++ DSA
+# C++ Learning & DSA
 
 A collection of my C++ code, practice, and experiments while learning C++ and Data Structures & Algorithms.
 
@@ -23,8 +23,6 @@ The repository currently includes topics such as:
 - And more as I continue learning
 
 ## 🔍 More Than Just Code
-
-I'm not trying to just memorize syntax or copy implementations.
 
 I try to understand:
 
